@@ -411,7 +411,6 @@
   padding: 1.35rem;
   display: grid;
   gap: 0.85rem;
-  animation: rise-in 0.6s ease both;
 }
 
 .service-card__index {
@@ -511,7 +510,6 @@
   padding: 1.2rem;
   display: grid;
   gap: 0.95rem;
-  animation: rise-in 0.62s ease both;
 }
 
 .case-card__top {
@@ -561,7 +559,6 @@
   grid-template-columns: auto 1fr;
   gap: 0.8rem;
   align-items: start;
-  animation: rise-in 0.6s ease both;
 }
 
 .process-item span {
@@ -619,22 +616,6 @@
   font-size: 0.83rem;
   color: oklch(0.45 0.01 260);
   padding: 0.2rem 0.1rem;
-}
-
-.section-reveal {
-  animation: rise-in 0.65s cubic-bezier(0.2, 0.64, 0.22, 1) both;
-}
-
-@keyframes rise-in {
-  from {
-    opacity: 0;
-    transform: translateY(22px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media (max-width: 1024px) {

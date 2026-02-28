@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AI Agents Website",
-  description: "Разработка лендингов и AI-решений для роста продукта и продаж.",
+  title: "Novera - AI Automation for Business",
+  description: "Novera автоматизирует бизнес-процессы, разрабатывает и внедряет AI-агентов и консультирует по AI-стратегии.",
   generator: "v0.app",
   icons: {
     icon: [
